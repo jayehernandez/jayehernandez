@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
+
+@font-face {
+  font-family: "Hillray-Regular";
+  src: local("../assets/Hillray-Regular.otf") format("opentype");
+}
+
 @tailwind utilities;
+
+.container-inner {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .container-inner {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-inner {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-inner {
+    max-width: 1000px;
+  }
+}
+
+.swash {
+  -moz-font-feature-settings: "swsh";
+  -webkit-font-feature-settings: "swsh";
+  font-feature-settings: "swsh";
+}
+
+.salt {
+  -moz-font-feature-settings: "salt";
+  -webkit-font-feature-settings: "salt";
+  font-feature-settings: "salt";
+}
