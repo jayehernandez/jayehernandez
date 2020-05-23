@@ -71,6 +71,8 @@ layout: layouts/base.njk
 
   <div class="flex-1 flex flex-col my-10 lg:mx-48 justify-center">
     <h2 class="flex-1 self-end">blog</h2>
-    {{ devto.posts }}
+    {% for post in devto.posts %}
+      {{ post | dump }}
+    {% endfor %}
   </div>
 </div>

@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': [
-          'Open Sans',
+          'DM Sans',
           ...defaultTheme.fontFamily.sans,
         ]
       },
