@@ -2,14 +2,55 @@
 title: Jaye Hernandez
 layout: layouts/base.njk
 ---
-<div class="container-inner mx-auto flex h-screen justify-center">
-  <div class="flex flex-col justify-center items-center text-center">
-    <h1 class="leading-tight salt sm:text-8xl">hey, i'm</h1>
-    <h1 class="leading-tight sm:text-8xl">
-      J<span class="salt">a</span><span class="swash">y</span>e!
-    </h1>
-    <div class="text-xl pt-10 sm:w-3/5 text-center">
-      Testing out Tailwind CSS. Enjoying it so far! Excited to see what I can do with it.
+<img src="assets/plant-1.png" class="top-0 left-0 fixed hidden lg:block">
+<img src="assets/plant-2.png" class="top-0 right-0 fixed hidden lg:block">
+<div class="container-inner mx-auto px-6 flex flex-col justify-center">
+  <div class="flex flex-col h-screen justify-center items-center text-center">
+    <div>
+      <h1 class="leading-none salt sm:text-8xl">hey, i'm</h1>
+      <h1 class="leading-none sm:text-8xl">
+        J<span class="salt">a</span><span class="swash">y</span>e!
+      </h1>
+    </div>
+    <div class="text-xl mt-16 mb-5 lg:w-2/3">
+      <b>I'm a full stack developer from the Philippines!</b><br>Grab a cup of coffee and read on.
+    </div>
+    <button class="py-2 px-4 bg-pink-200 rounded">
+      Get in Touch
+    </button>
+  </div>
+
+  <div class="flex-1 flex flex-col my-10 lg:m-32 justify-center">
+    <h2 class="text-center flex-1">about</h2>
+    <div class="flex-1 flex flex-col items-center lg:flex-row">
+      <div class="md:w-1/2 lg:w-2/5 p-3 lg:order-last">
+        <img src="assets/me.png">
+      </div>
+      <div class="lg:w-3/5 p-3">
+        <p class="mb-5">Hey, I'm Jaye! I like experimenting with new technologies, building small projects, and occassionally joining hackathons.
+
+        <p class="mb-5">After graduating with a degree in BS Computer Science at UP Diliman, I joined <b>BeautyMNL</b> where I build new projects everyday I need to make this longer.</p>
+
+        <p class="mb-5">In my spare time, you'll find me <b>editing photos</b> from a trip or listening to a musical non-stop.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex-1 flex flex-col py-3 lg:p-16 justify-center">
+    <h2 class="flex-1 flex-start">projects</h2>
+    <div class="flex-1 flex flex-col items-center lg:flex-row">
+      <div class="lg:w-1/2">
+        <img src="assets/letra.png">
+      </div>
+      <div class="lg:w-1/2">
+        <h3 class="uppercase tracking-widest lg:ml-5">Letra</h3>
+        <div class="bg-pink-200 rounded-lg lg:rounded-r-lg p-5">
+          Passively learn a new language every time you open a new tab. Published on the Chrome Web Store.
+        </div>
+        <div class="lg:ml-5">
+          Vue JS
+        </div>
+      </div>
     </div>
   </div>
 </div>

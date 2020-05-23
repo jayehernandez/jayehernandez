@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': [
-          'Sen',
+          'Open Sans',
           ...defaultTheme.fontFamily.sans,
         ]
       },
@@ -16,6 +16,9 @@ module.exports = {
         '8xl': '6rem',
       },
     },
+    maxWidth: {
+      'xl': '1000px',
+    },
   },
   variants: {},
   plugins: [
@@ -23,6 +26,14 @@ module.exports = {
       addBase({
         'h1': {
           fontSize: config('theme.fontSize.7xl'),
+          fontFamily: 'Hillray-Regular',
+        },
+        'h2': {
+          fontSize: config('theme.fontSize.6xl'),
+          fontFamily: 'Hillray-Regular',
+        },
+        'h3': {
+          fontSize: config('theme.fontSize.5xl'),
           fontFamily: 'Hillray-Regular',
         },
       })
