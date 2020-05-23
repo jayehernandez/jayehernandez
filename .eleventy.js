@@ -5,3 +5,5 @@ module.exports = function(eleventyConfig) {
     dir: { input: 'src', output: '_site' }
   };
 };
+
+require('dotenv').config();

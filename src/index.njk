@@ -72,7 +72,18 @@ layout: layouts/base.njk
   <div class="flex-1 flex flex-col my-10 lg:mx-48 justify-center">
     <h2 class="flex-1 self-end">blog</h2>
     {% for post in devto.posts %}
-      {{ post | dump }}
+      <div class="">
+        <div class="text-xl font-bold">{{ post.title }}</div>
+        <div class="">
+            {{ post.description }}
+        </div>
+        <div class="">
+          {{ post.url }}
+          {{ post.page_views_count }}
+          {{ post.positive_reactions_count }}
+          {{ post.comments_count }}
+        </div>
+      </div>
     {% endfor %}
   </div>
 </div>
