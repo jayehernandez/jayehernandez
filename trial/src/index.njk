@@ -38,12 +38,12 @@ layout: layouts/base.njk
 
   <div class="flex-1 flex flex-col py-3 lg:p-16 justify-center">
     <h2 class="flex-1 flex-start">projects</h2>
-    <div class="flex-1 flex flex-col items-center lg:flex-row">
-      <div class="lg:w-1/2">
+    <div class="flex-1 flex flex-col justify-center items-center lg:flex-row my-6">
+      <div class="md:w-2/3 lg:w-1/2">
         <img src="assets/letra.png">
       </div>
       <div class="lg:w-1/2">
-        <h3 class="uppercase tracking-widest lg:ml-5">Letra</h3>
+        <h3 class="uppercase tracking-widest mt-3 lg:mt-0 lg:ml-5">Letra</h3>
         <div class="bg-pink-200 rounded-lg lg:rounded-r-lg p-5">
           Passively learn a new language every time you open a new tab. Published on the Chrome Web Store.
         </div>
@@ -52,5 +52,25 @@ layout: layouts/base.njk
         </div>
       </div>
     </div>
+
+    <div class="flex-1 flex flex-col justify-center items-center lg:flex-row my-6">
+      <div class="md:w-2/3 lg:w-1/2 lg:order-last">
+        <img src="assets/letra.png">
+      </div>
+      <div class="lg:w-1/2">
+        <h3 class="uppercase tracking-widest mt-3 lg:mt-0 lg:ml-5">Letra</h3>
+        <div class="bg-pink-200 rounded-lg lg:rounded-l-lg p-5">
+          Passively learn a new language every time you open a new tab. Published on the Chrome Web Store.
+        </div>
+        <div class="lg:ml-5">
+          Vue JS
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex-1 flex flex-col my-10 lg:mx-48 justify-center">
+    <h2 class="flex-1 self-end">blog</h2>
+    {{ devto.posts }}
   </div>
 </div>

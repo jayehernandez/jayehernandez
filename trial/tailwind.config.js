@@ -33,7 +33,7 @@ module.exports = {
           fontFamily: 'Hillray-Regular',
         },
         'h3': {
-          fontSize: config('theme.fontSize.5xl'),
+          fontSize: config('theme.fontSize.4xl'),
           fontFamily: 'Hillray-Regular',
         },
       })
