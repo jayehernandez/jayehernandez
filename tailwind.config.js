@@ -15,13 +15,13 @@ module.exports = {
         '7xl': '5rem',
         '8xl': '6rem',
       },
+      borderRadius: {
+        'xl': '1.5rem',
+      }
     },
     maxWidth: {
       'xl': '1000px',
     },
-    borderRadius: {
-      'lg': '1.5rem',
-    }
   },
   variants: {},
   plugins: [
