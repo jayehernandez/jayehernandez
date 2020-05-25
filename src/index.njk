@@ -13,15 +13,19 @@ layout: layouts/base.njk
       </h1>
     </div>
     <div class="text-xl mt-16 mb-5 lg:w-2/3">
-      <b>I'm a full stack developer from the Philippines!</b><br>Grab a cup of coffee and read on.
+      <b>I'm a full stack developer from the Philippines!</b> Grab a cup of coffee and read on.
     </div>
-    <button class="py-2 px-4 bg-pink-200 rounded">
+    <button class="py-2 px-4 border-2 border-gray-400 rounded-md transition ease-in-out duration-700 hover:bg-gray-400">
       Get in Touch
     </button>
   </div>
 
   <div class="flex-1 flex flex-col my-10 lg:mx-32 justify-center">
-    <h2 class="text-center flex-1">about</h2>
+    <div class="flex-1 flex">
+      <div class="border border-t-0 border-r-0 border-l-0 border-b-1 border-gray-400 mb-12 mx-2 flex-1"></div>
+      <h2 class="text-center salt">about</h2>
+      <div class="border border-t-0 border-r-0 border-l-0 border-b-1 border-gray-400 mb-12 mx-2 flex-1"></div>
+    </div>
     <div class="flex-1 flex flex-col items-center lg:flex-row">
       <div class="md:w-1/2 lg:w-2/5 p-3 lg:order-last">
         <img src="assets/me.png">
@@ -37,43 +41,59 @@ layout: layouts/base.njk
   </div>
 
   <div class="flex-1 flex flex-col py-3 lg:p-16 justify-center">
-    <h2 class="flex-1 flex-start">projects</h2>
-    <div class="flex-1 flex flex-col justify-center items-center lg:flex-row my-6">
+    <div class="flex-1 flex">
+      <h2 class="flex-start">pro<span class="swash">j</span>ects</h2>
+      <div class="border border-t-0 border-r-0 border-l-0 border-b-1 border-gray-400 mb-12 ml-2 flex-1"></div>
+    </div>
+    <div class="flex flex-col justify-center items-center lg:flex-row my-6">
       <div class="lg:w-1/2">
         <img src="assets/letra.png">
       </div>
       <div class="lg:w-1/2">
-        <h3 class="uppercase tracking-widest mt-3 lg:mt-0 lg:ml-5 leading-none">Letra</h3>
-        <div class="bg-pink-200 rounded-lg lg:rounded-l-none lg:rounded-r-lg p-5 my-4">
+        <h3 class="uppercase tracking-widest lg:ml-5 leading-none mt-6 lg:mt-0">Letra</h3>
+        <div class="bg-gray-200 rounded-xl lg:rounded-l-none p-5 mt-4 mb-6">
           Passively learn a new language every time you open a new tab. Published on the Chrome Web Store.
         </div>
         <div class="lg:ml-5">
-          Vue JS
+          <span class="py-2 px-4 rounded-full mr-2 uppercase text-xs tracking-widest border border-gray-500 text-gray-500">
+            Vue.JS
+          </span>
+          <span class="py-2 px-4 rounded-full mr-2 uppercase text-xs tracking-widest border border-gray-500 text-gray-500">
+            Node.JS
+          </span>
         </div>
       </div>
     </div>
 
-    <div class="flex-1 flex flex-col justify-center items-center lg:flex-row my-6">
+    <div class="flex-1 flex flex-col justify-center items-center lg:flex-row my-12 lg:my-6">
       <div class="lg:w-1/2 lg:order-last">
-        <img src="assets/letra.png">
+        <img src="assets/letra.png" class="rounded-tr-xl rounded-bl-xl">
       </div>
       <div class="lg:w-1/2">
-        <h3 class="uppercase tracking-widest mt-3 lg:mt-0 lg:ml-5 leading-none">Letra</h3>
-        <div class="bg-pink-200 rounded-lg lg:rounded-r-none lg:rounded-l-lg p-5 my-4">
+        <h3 class="uppercase tracking-widest mt-3 lg:mt-0 leading-none mt-6 lg:mt-0">Letra</h3>
+        <div class="bg-gray-200 rounded-xl lg:rounded-r-none p-5 mt-4 mb-6">
           Passively learn a new language every time you open a new tab. Published on the Chrome Web Store.
         </div>
-        <div class="lg:ml-5">
-          Vue JS
+        <div class="">
+          <span class="py-2 px-4 rounded-full mr-2 uppercase text-xs tracking-widest border border-gray-500 text-gray-500">
+            Angular JS
+          </span>
+          <span class="py-2 px-4 rounded-full mr-2 uppercase text-xs tracking-widest border border-gray-500 text-gray-500">
+            Node.JS
+          </span>
         </div>
       </div>
     </div>
   </div>
 
   <div class="flex-1 flex flex-col my-10 lg:mx-48 justify-center">
-    <h2 class="flex-1 self-end">blog</h2>
+    <div class="flex-1 flex">
+      <div class="border border-t-0 border-r-0 border-l-0 border-b-1 border-gray-400 mb-12 mr-2 flex-1"></div>
+      <h2 class="self-end">blo<span class="swash">g</span></h2>
+    </div>
     {% for post in devto.posts %}
       <div class="my-4">
-        <a class="text-xl text-blue-700 font-bold" href="{{ post.url }}">{{ post.title }}</a>
+        <a class="text-xl text-gray-600 font-bold transition ease-in-out duration-700 hover:bg-gray-300 " href="{{ post.url }}">{{ post.title }}</a>
         <div class="mt-2">
             {{ post.description }}
         </div>
@@ -84,5 +104,13 @@ layout: layouts/base.njk
         </div>
       </div>
     {% endfor %}
+  </div>
+
+  <div>
+
+  </div>
+
+  <div class="self-center my-4">
+    Made with 💖 by Jaye Hernandez
   </div>
 </div>
