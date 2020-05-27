@@ -14,7 +14,11 @@ module.exports = {
         test: /\.css$/,
         exclude: /node_modules/,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
-      }
+      },
+      {
+        test: /\.(woff|woff2|ttf|eot|otf)$/,
+        use: 'file-loader?name=fonts/[name].[ext]!static'
+       }
     ]
   }
 };

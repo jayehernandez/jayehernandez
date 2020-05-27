@@ -2,8 +2,8 @@
 @tailwind components;
 
 @font-face {
-  font-family: "Hillray-Regular";
-  src: local("../assets/Hillray-Regular.otf") format("opentype");
+	font-family: "Hillray-Regular";
+  src: url("../assets/Hillray-Regular.otf") format("opentype");
 }
 
 @tailwind utilities;

@@ -2,7 +2,9 @@ const plugin = require('tailwindcss/plugin');
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: [],
+  purge: [
+    'src/index.njk',
+  ],
   theme: {
     extend: {
       fontFamily: {
