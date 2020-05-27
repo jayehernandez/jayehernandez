@@ -19,10 +19,7 @@ module.exports = {
       },
       borderRadius: {
         'xl': '1.5rem',
-      }
-    },
-    maxWidth: {
-      'xl': '1000px',
+      },
     },
   },
   variants: {},
