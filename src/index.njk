@@ -92,15 +92,18 @@ layout: layouts/base.njk
       <h2 class="self-end">blo<span class="swash">g</span></h2>
     </div>
     {% for post in devto.posts %}
-      <div class="my-4">
+      <div class="my-6">
         <a class="text-xl font-bold text-gray-600 transition duration-700 ease-in-out hover:bg-gray-300 " href="{{ post.url }}">{{ post.title }}</a>
-        <div class="mt-2">
-            {{ post.description }}
+        <div class="my-2">
+          {{ post.description }}
         </div>
-        <div class="">
-          {{ post.page_views_count }}
-          {{ post.positive_reactions_count }}
-          {{ post.comments_count }}
+        <div class="flex items-center text-gray-500">
+          {% include "icons/numbers.njk" %}
+          {{ post.page_views_count }} views
+          {% include "icons/heart.njk" %}
+          {{ post.positive_reactions_count }} reactions
+          {% include "icons/comment.njk" %}
+          {{ post.comments_count }} comments
         </div>
       </div>
     {% endfor %}
@@ -115,7 +118,7 @@ layout: layouts/base.njk
     </button>
   </div>
 
-  <div class="flex flex-col self-center my-4">
+  <div class="flex flex-col self-center my-8">
     <div class="flex justify-between px-8 mb-4">
       <a href="https://twitter.com/jayehernandez_">
         {% include "icons/twitter.njk" %}
