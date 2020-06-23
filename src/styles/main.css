@@ -9,8 +9,24 @@
 @tailwind utilities;
 
 .container-inner {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.icon {
+  @apply w-8 h-8 transition duration-500 ease-in-out fill-current text-teal;
+}
+
+.icon:hover {
+  @apply text-black;
+}
+
+.link {
+  @apply font-bold transition duration-500 ease-in-out text-teal;
+}
+
+.link:hover {
+  @apply border-b-2 border-teal;
 }
 
 @media (min-width: 640px) {
