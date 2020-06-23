@@ -41,7 +41,7 @@ module.exports = {
     plugin(function({ addBase, config }) {
       addBase({
         'h1': {
-          fontFamily: 'Hillray-Regular',
+          fontFamily: 'Montserrat Alternates',
         },
       })
     })
