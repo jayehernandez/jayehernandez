@@ -1,6 +1,19 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {% if env.isProd %}
+      <script async
+        src="https://www.googletagmanager.com/gtag/js?id={{ env.tracking.gtag }}">
+      </script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', '{{ env.tracking.gtag }}');
+      </script>
+    {% endif %}
     <title>{{ title }}</title>
     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
