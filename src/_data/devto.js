@@ -9,10 +9,6 @@ module.exports = async function() {
   )
     .then(res => res.json())
     .then(json => {
-      let posts = json;
-
-      posts.push({ title: "This is a test to add another post here hehe", page_views_count: 1000, positive_reactions_count: 20 })
-
       return {
         posts: json
       };
