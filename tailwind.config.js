@@ -19,7 +19,7 @@ module.exports = {
         'xxl': '5rem',
       },
       colors: {
-        'teal': '#809888',
+        'teal': '#6e998e',
         gray: {
           '100': '#f5f5f5',
           '200': '#eeeeee',

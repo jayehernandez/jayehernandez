@@ -4,6 +4,7 @@
 @font-face {
 	font-family: "Hillray-Regular";
   src: url("../assets/Hillray-Regular.otf") format("opentype");
+  font-display: swap;
 }
 
 @tailwind utilities;
