@@ -24,12 +24,10 @@ layout: layouts/base.njk
       <a href="{{ post.url }}" class="flex flex-col justify-between p-5 transition duration-700 ease-in-out border-2 border-gray-200 lg:w-1/3 rounded-xl hover:border-teal group">
         <b class="text-gray-600 transition duration-700 ease-in-out group-hover:text-black">{{ post.title }}</b>
 
-        <div class="flex items-center mt-3 text-gray-600 transition duration-700 ease-in-out group-hover:text-teal">
-          {% include "icons/numbers.njk" %}
-          <span class="ml-1 mr-4">{{ post.page_views_count }} views</span>
-
-          {% include "icons/heart.njk" %}
-          <span class="ml-1">{{ post.positive_reactions_count }} likes</span>
+        <div class="flex items-center mt-3 text-xs text-gray-400 transition duration-700 ease-in-out group-hover:text-teal">
+          {% for tag in post.tag_list %}
+            <span class="mx-1">#{{ tag }}</span>
+          {% endfor %}
         </div>
       </a>
     {% endfor %}
