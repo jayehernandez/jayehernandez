@@ -15,7 +15,7 @@
 }
 
 .icon {
-  @apply w-8 h-8 transition duration-500 ease-in-out fill-current text-teal;
+  @apply w-8 h-8 transition duration-500 ease-out fill-current text-teal;
 }
 
 .icon:hover {
@@ -23,7 +23,7 @@
 }
 
 .link {
-  @apply font-bold transition duration-500 ease-in-out text-teal;
+  @apply font-bold transition duration-500 ease-out text-teal;
 }
 
 .link:hover {
