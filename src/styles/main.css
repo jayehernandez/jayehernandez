@@ -1,12 +1,6 @@
 @tailwind base;
 @tailwind components;
 
-/* @font-face {
-	font-family: "Hillray-Regular", sans-serif;
-  src: url("Hillray-Regular.otf") format("opentype");
-  font-display: swap;
-} */
-
 @tailwind utilities;
 
 .container-inner {
