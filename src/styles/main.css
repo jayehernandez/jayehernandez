@@ -9,7 +9,7 @@
 }
 
 .icon {
-  @apply w-8 h-8 transition duration-500 ease-out fill-current text-teal;
+  @apply w-8 h-8 text-teal-400 transition duration-500 ease-out fill-current;
 }
 
 .icon:hover {
@@ -17,11 +17,11 @@
 }
 
 .link {
-  @apply font-bold transition duration-500 ease-out text-teal;
+  @apply font-bold text-teal-400 transition duration-500 ease-out;
 }
 
 .link:hover {
-  @apply border-b-2 border-teal;
+  @apply border-b-2 border-teal-400;
 }
 
 @media (min-width: 640px) {

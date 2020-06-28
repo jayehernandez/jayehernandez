@@ -2,7 +2,7 @@
 title: Jaye Hernandez
 layout: layouts/base.njk
 ---
-<div class="flex flex-col items-center justify-between min-h-screen">
+<div class="flex flex-col items-center justify-between min-h-screen dark:text-teal-100 dark:bg-teal-800">
   <div class="flex flex-col items-center mt-12 lg:flex-row container-inner">
     <div class="p-4 md:w-1/2 lg:w-2/5">
       <picture>
@@ -11,7 +11,7 @@ layout: layouts/base.njk
       </picture>
     </div>
     <div class="p-4 lg:w-3/5">
-      <h1 class="mb-3 text-4xl text-teal salt md:text-6xl">
+      <h1 class="mb-3 text-4xl text-teal-400 salt md:text-6xl">
         he<span class="swash">y</span>, i'm J<span class="salt">a</span><span class="swash">y</span>e!
       </h1>
       <p class="mb-5">I like experimenting with new technologies, building small projects, and occassionally joining hackathons.
@@ -24,10 +24,10 @@ layout: layouts/base.njk
 
   <div class="flex flex-col my-5 space-y-4 text-sm lg:space-y-0 lg:space-x-4 container-inner lg:flex-row">
     {% for post in devto.posts %}
-      <a href="{{ post.url }}" class="flex flex-col justify-between p-5 transition duration-700 ease-out border-2 border-gray-200 lg:w-1/3 rounded-xl hover:border-teal group">
-        <b class="text-gray-700 transition duration-700 ease-out group-hover:text-black">{{ post.title }}</b>
+      <a href="{{ post.url }}" class="flex flex-col justify-between p-5 transition duration-700 ease-out border-2 border-gray-200 dark:border-teal-200 lg:w-1/3 rounded-xl hover:border-teal-400 group">
+        <b class="text-gray-700 transition duration-700 ease-out dark:text-white group-hover:text-black">{{ post.title }}</b>
 
-        <div class="flex items-center mt-3 text-xs text-gray-600 transition duration-700 ease-out group-hover:text-teal">
+        <div class="flex items-center mt-3 text-xs text-gray-600 transition duration-700 ease-out group-hover:text-teal-400">
           {% for tag in post.tag_list %}
             <span class="mx-1">#{{ tag }}</span>
           {% endfor %}
@@ -36,13 +36,15 @@ layout: layouts/base.njk
     {% endfor %}
   </div>
 
-  <div class="flex flex-col items-center content-end my-5 text-teal">
+  <div class="flex flex-col items-center content-end my-5">
     <div class="flex mb-2 space-x-3">
       <a href="https://twitter.com/jayehernandez_" aria-label="Twitter" target="_blank" rel="noopener">{% include "icons/twitter.njk" %}</a>
       <a href="https://linkedin.com/jayehernandez" aria-label="Linkedin" target="_blank" rel="noopener">{% include "icons/linkedin.njk" %}</a>
       <a href="https://github.com/jayehernandez" aria-label="Github" target="_blank" rel="noopener">{% include "icons/github.njk" %}</a>
       <a href="mailto:jaye@jayehernandez.com" aria-label="Mail" target="_blank" rel="noopener">{% include "icons/mail.njk" %}</a>
     </div>
-    Made with ♥ by Jaye Hernandez
+    <div class="text-xs">
+      Made with <a href="https://11ty.dev/" target="_blank" rel="noopener" class="link">11ty</a>, <a href="https://tailwindcss.com/" target="_blank" rel="noopener" class="link">TailwindCSS</a>, and ♥ by Jaye Hernandez
+    </div>
   </div>
 </div>

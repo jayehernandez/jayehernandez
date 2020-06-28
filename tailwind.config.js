@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // screens: {
+      //   'dark': { 'raw': '(prefers-color-scheme: dark)' },
+      // },
       fontFamily: {
         'sans': [
           'DM Sans',
@@ -19,7 +22,12 @@ module.exports = {
         'xxl': '5rem',
       },
       colors: {
-        'teal': '#176355',
+        teal: {
+          '100': '#aed1ca',
+          '200': '#aed1ca',
+          '400': '#176355',
+          '800': '#031c17',
+        },
         gray: {
           '100': '#f5f5f5',
           '200': '#eeeeee',
