@@ -1,55 +1,14 @@
 @tailwind base;
 @tailwind components;
-
 @tailwind utilities;
 
-.container-inner {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
+.icon { @apply w-8 h-8 text-teal-400 transition duration-500 ease-out fill-current; }
+.icon:hover { @apply text-black; }
 
-.icon {
-  @apply w-8 h-8 text-teal-400 transition duration-500 ease-out fill-current;
-}
+.link { @apply font-bold text-teal-400 transition duration-500 ease-out; }
+.link:hover { @apply border-b-2 border-teal-400; }
 
-.icon:hover {
-  @apply text-black;
-}
-
-.link {
-  @apply font-bold text-teal-400 transition duration-500 ease-out;
-}
-
-.link:hover {
-  @apply border-b-2 border-teal-400;
-}
-
-@media (min-width: 640px) {
-  .container-inner {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container-inner {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container-inner {
-    max-width: 1024px;
-  }
-}
-
-.swash {
-  -moz-font-feature-settings: "swsh";
-  -webkit-font-feature-settings: "swsh";
-  font-feature-settings: "swsh";
-}
-
-.salt {
-  -moz-font-feature-settings: "salt";
-  -webkit-font-feature-settings: "salt";
-  font-feature-settings: "salt";
-}
+.container-inner { padding-left: 2rem; padding-right: 2rem; }
+@media (min-width: 640px) { .container-inner { max-width: 640px; } }
+@media (min-width: 768px) { .container-inner { max-width: 768px; } }
+@media (min-width: 1024px) { .container-inner { max-width: 1024px; } }
