@@ -6,7 +6,7 @@ Here's a list of things I currently keep myself busy with:
 
 👩🏻‍💻 Working as a full stack developer over at **[BeautyMnl](https://beautymnl.com)** using [Ruby on Rails](https://rubyonrails.org/) and [Vue.js](https://vuejs.org/)
 
-☀️ Maintaining **[Letra](https://github.com/jayehernandez/letra-extension)**, an open-source project I created for learning a new foreign language (feel free to contribute, this is beginner friendly!)
+☀️ Maintaining **[Letra](https://github.com/jayehernandez/letra-extension)**, an open-source project I created (feel free to contribute, this is beginner friendly!)
 
 ✍️ Writing tech blog posts over at **[dev.to](https://dev.to/jayehernandez)**.
 
