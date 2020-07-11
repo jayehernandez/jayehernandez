@@ -15,14 +15,12 @@ Here's a list of things I currently keep myself busy with:
 <br>
 <details>
   <summary>Some other facts about me-e-e</summary>
-  <p><i>Siri play ME! by Taylor Swift ft. Brendon Urie 🎶</i></p>
+  <br>
+  <i>Siri play ME! by Taylor Swift ft. Brendon Urie 🎶</i>
 
   - I post random photos and trip snippets at **[VSCO](https://vsco.co/jayehernandez)**. (Look at the Journal's tab!)
   - My go to jam when coding: musicals. Non-stop. ⭐️
   - I absolutely adore Eevee, the best Pokemon.
-
-  <br>
-  My github stats:
 
   ![My github stats](https://github-readme-stats.vercel.app/api?username=jayehernandez&show_icons=true)
 </details>
