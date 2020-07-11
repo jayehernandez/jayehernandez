@@ -15,9 +15,7 @@ Here's a list of things I currently keep myself busy with:
 <br>
 <details>
   <summary>Some other facts about me-e-e</summary>
-  <br>
-  _Siri play ME! by Taylor Swift ft. Brendon Urie 🎶_
-  <br>
+  <p><i>Siri play ME! by Taylor Swift ft. Brendon Urie 🎶</i><p>
 
   - I post random photos and trip snippets at **[VSCO](https://vsco.co/jayehernandez)**. (Look at the Journal's tab!)
   - My go to jam when coding: musicals. Non-stop. ⭐️
