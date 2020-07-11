@@ -1,4 +1,4 @@
-![Hero Image](readme/hero.svg)
+<img src="readme/hero.svg">
 
 I like experimenting with new technologies, building small projects, and occassionally joining hackathons. ✨
 
@@ -15,13 +15,13 @@ Here's a list of things I currently keep myself busy with:
 <br>
 <details>
   <summary>Some other facts about me-e-e</summary>
-  <br>
-  _Siri play ME! by Taylor Swift ft. Brendon Urie 🎶_
+  <p><i>Siri play ME! by Taylor Swift ft. Brendon Urie 🎶</i></p>
 
   - I post random photos and trip snippets at **[VSCO](https://vsco.co/jayehernandez)**. (Look at the Journal's tab!)
   - My go to jam when coding: musicals. Non-stop. ⭐️
   - I absolutely adore Eevee, the best Pokemon.
 
+  <br>
   My github stats:
 
   ![My github stats](https://github-readme-stats.vercel.app/api?username=jayehernandez&show_icons=true)
@@ -30,7 +30,6 @@ Here's a list of things I currently keep myself busy with:
 <br><hr>
 <div align="center">
   <p><i>Let's connect in different places over the internet!</i><p>
-
 
   <a href="https://twitter.com/jayehernandez_" alt="Twitter"><img src="readme/twitter-fill.svg"></a>
   <a href="https://www.linkedin.com/in/jayehernandez/" alt="Linkedin"><img src="readme/linkedin-fill.svg"></a>
