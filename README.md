@@ -27,7 +27,7 @@ Here's a list of things I currently keep myself busy with:
 
 <br><hr>
 <p align="center">
-  <i>Let's connect in different places over the internet!</i>
+  <i>Let's connect and chat! 🌏</i>
 
   <p align="center">
     <a href="https://twitter.com/jayehernandez_" alt="Twitter"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/twitter-fill.svg"></a>
