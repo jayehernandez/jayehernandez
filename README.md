@@ -9,7 +9,6 @@ Here's a list of things I currently keep myself busy with:
 - ✍️ Writing tech blog posts over at **[dev.to](https://dev.to/jayehernandez)**.
 - 🛠 Getting myself into JAMStack. Trying out [11ty](https://www.11ty.dev/) and [Nuxt.js](https://nuxtjs.org/) in my spare time.
 
-<br>
 <details>
   <summary>Some other facts about me-e-e</summary>
   <br>
@@ -22,7 +21,7 @@ Here's a list of things I currently keep myself busy with:
   ![My github stats](https://github-readme-stats.vercel.app/api?username=jayehernandez&show_icons=true)
 </details>
 
-<br><hr>
+<hr>
 <p align="center">
   <i>Let's connect and chat! Open to anything under the sun.</i>
 
