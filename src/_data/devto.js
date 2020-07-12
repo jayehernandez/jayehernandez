@@ -10,7 +10,7 @@ module.exports = async function() {
     .then(res => res.json())
     .then(json => {
       return {
-        posts: json
+        posts: json.slice(0, 3)
       };
     });
 };
