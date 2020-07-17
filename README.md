@@ -21,8 +21,7 @@ Here's a list of things I currently keep myself busy with:
 
   ![My github stats](https://github-readme-stats.vercel.app/api?username=jayehernandez&show_icons=true)
   <br><br>
-  [![HitCount](http://hits.dwyl.com/jayehernandez/jayehernandeez.svg)](http://hits.dwyl.com/jayehernandez/jayehernandez)
-
+  [![HitCount](http://hits.dwyl.com/jayehernandez/jayehernandez.svg)](http://hits.dwyl.com/jayehernandez/jayehernandez)
 </details>
 
 <hr>
