@@ -17,8 +17,10 @@ Here's a list of things I currently keep myself busy with:
   - I post random photos and trip snippets at **[VSCO](https://vsco.co/jayehernandez)**. (Look at the Journal's tab!)
   - My go to jam when coding: musicals. Non-stop. ⭐️
   - I absolutely adore Eevee, the best Pokemon.
+  
 
-  ![My github stats](https://github-readme-stats.vercel.app/api?username=jayehernandez&show_icons=true)
+  ![My github stats](https://github-readme-stats.vercel.app/api?username=jayehernandez&show_icons=true&theme=nord)
+  <br><br>
 </details>
 
 <hr>
@@ -33,7 +35,9 @@ Here's a list of things I currently keep myself busy with:
   </p>
 
   <p align="center">
-    <img align="center" src="https://visitor-badge.glitch.me/badge?page_id=jayehernandez.visitor-badge">
+    <a href="http://hits.dwyl.com/jayehernandez/jayehernandez">
+      <img align="center" src="http://hits.dwyl.com/jayehernandez/jayehernandez.svg">
+    </a>
   </p>
 </p>
 
