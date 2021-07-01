@@ -35,8 +35,8 @@ Here's a list of things I currently keep myself busy with:
   </p>
 
   <p align="center">
-    <a href="http://hits.dwyl.com/jayehernandez/jayehernandez">
-      <img align="center" src="http://hits.dwyl.com/jayehernandez/jayehernandez.svg">
+    <a href="https://visitor-badge.glitch.me/">
+      <img align="center" src="https://page-views.glitch.me/badge?page_id=jayehernandez.jayehernandez">
     </a>
   </p>
 </p>
