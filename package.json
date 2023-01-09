@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/jayehernandez/jayehernandez#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "^1.0.2",
     "autoprefixer": "^9.8.0",
     "css-loader": "^3.5.3",
     "dotenv": "^8.2.0",
